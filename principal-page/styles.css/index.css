@@ -1,0 +1,162 @@
+@import "./icon.css";
+
+:root {
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+  --primary: #8f4e04;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #cccccc;
+  --smoke: #F2EDE7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Este es la cabecera */
+
+.header {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.header .principal-navigation {
+  display: flex;
+  align-items: center;
+  grid-column: 8 / -1;
+  gap: 2rem;
+}
+
+.header .principal-navigation .container-navigation {
+  display: flex;
+  gap: 3rem;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.principal-logo {
+  inline-size: 12rem;
+}
+
+.wrapper-header {
+  inline-size: 83rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8 , auto);
+  align-items: center;
+}
+
+.container-navigation li {
+  list-style: none;
+}
+
+.container-navigation li a {
+  color: var(--black);
+  text-decoration: none;
+  font-family: 'Alegreya', serif;
+  font-size: 1.2rem;
+  transition: .1s;
+}
+
+.container-navigation li a:hover {
+  color: var(--primary);
+  border-bottom: 0.125rem solid var(--primary);
+}
+
+.principal-navigation a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.principal-navigation a:hover {
+  color: var(--primary);
+}
+
+.principal-navigation span {
+  color: var(--gray);
+  font-size: 1.4rem;
+
+}
+
+.login {
+  background-color: var(--primary);
+  block-size: 1.7rem;
+  inline-size: 7rem;
+  border-radius: 3rem;
+  border: none;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: .8rem;
+  transition: .3s;
+}
+
+.login:hover {
+  background: var(--white);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+
+.mid-container {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.content-middle {
+  inline-size: 83rem;
+  block-size: 32rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8 , 1fr);
+  align-items: center;
+}
+
+.container-left {
+  grid-column: 2 / 5;
+  margin-right: 5rem;
+}
+
+.container-left h2 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+
+.container-left p {
+  font-size: 1.2rem;
+}
+
+.container-left .button {
+  background: #8f4e04;
+  color: var(--white);
+  border-radius: 2.5rem;
+  inline-size: 10rem;
+  block-size: 2rem;
+  font-size: 1rem;
+  border: none;
+  font-weight: bold;
+}
+
+.container-right {
+  display: flex;
+  grid-column: 5 / 9;
+  justify-content: space-evenly;
+  background: var(--gray);
+  padding: 3rem 1rem;
+  border-radius: .5rem;
+}
+
+.left,
+.right {
+  inline-size: 18rem;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
+  border-radius: 1rem;
+}
+
+.right {
+  padding-top: 4rem;
+}
