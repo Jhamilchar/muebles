@@ -1,0 +1,10 @@
+.container-categories {
+    inline-size: 83rem;
+    margin: auto;
+}
+
+.container-categories h3::after {
+    content: " ________";
+    color: var(--primary);
+    vertical-align: super;
+}

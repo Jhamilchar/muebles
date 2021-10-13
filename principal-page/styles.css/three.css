@@ -1,0 +1,13 @@
+.three-container {
+    inline-size: 83rem;
+    block-size: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-block-start: 6rem;
+}
+
+.three-container h2 {
+    color: grey;
+    font-size: 2rem;
+}

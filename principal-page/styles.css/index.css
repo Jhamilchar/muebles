@@ -1,4 +1,7 @@
 @import "./icon.css";
+@import "./content-middle.css";
+@import "./three.css";
+@import "./container-categories.css";
 
 :root {
   font-size: 16px;
@@ -26,7 +29,7 @@ body {
 .header .principal-navigation {
   display: flex;
   align-items: center;
-  grid-column: 8 / -1;
+  grid-column: 12 / -1;
   gap: 2rem;
 }
 
@@ -38,14 +41,16 @@ body {
 }
 
 .principal-logo {
-  inline-size: 12rem;
+  inline-size: 10rem;
+  vertical-align: middle;
+  margin-block-start: 1rem;
 }
 
 .wrapper-header {
   inline-size: 83rem;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(8 , auto);
+  grid-template-columns: repeat(12 , auto);
   align-items: center;
 }
 
@@ -63,7 +68,7 @@ body {
 
 .container-navigation li a:hover {
   color: var(--primary);
-  border-bottom: 0.125rem solid var(--primary);
+  border-bottom: 0.2rem solid var(--primary);
 }
 
 .principal-navigation a {
@@ -83,15 +88,13 @@ body {
 
 .login {
   background-color: var(--primary);
-  block-size: 1.7rem;
-  inline-size: 7rem;
+  padding: .8rem 3rem;
   border-radius: 3rem;
   border: none;
-  color: var(--white);
   font-weight: bold;
   cursor: pointer;
   font-size: .8rem;
-  transition: .3s;
+  transition: .2s;
 }
 
 .login:hover {
@@ -100,63 +103,89 @@ body {
   border: 2px solid var(--primary);
 }
 
-
-.mid-container {
-  inline-size: 100%;
-  block-size: auto;
-}
-
-.content-middle {
-  inline-size: 83rem;
-  block-size: 32rem;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(8 , 1fr);
-  align-items: center;
-}
-
-.container-left {
-  grid-column: 2 / 5;
-  margin-right: 5rem;
-}
-
-.container-left h2 {
-  font-size: 3rem;
-  line-height: 3.2rem;
-}
-
-.container-left p {
-  font-size: 1.2rem;
-}
-
-.container-left .button {
-  background: #8f4e04;
+.login a {
+  font-size: .9rem;
   color: var(--white);
-  border-radius: 2.5rem;
-  inline-size: 10rem;
-  block-size: 2rem;
-  font-size: 1rem;
-  border: none;
-  font-weight: bold;
 }
 
-.container-right {
-  display: flex;
-  grid-column: 5 / 9;
-  justify-content: space-evenly;
-  background: var(--gray);
-  padding: 3rem 1rem;
-  border-radius: .5rem;
+.icon-icon-hamburguer-button {
+  display: none;
 }
 
-.left,
-.right {
-  inline-size: 18rem;
-  aspect-ratio: 1 / 1;
-  vertical-align: middle;
-  border-radius: 1rem;
+@media screen and (max-width:1024px) {
+  :root {
+    font-size: 15px;
+  }
 }
 
-.right {
-  padding-top: 4rem;
+@media screen and (max-width:768px) {
+  :root {
+    font-size: 14px !important;
+  }
+
+  .wrapper-header a {
+    grid-column: 2 / 4;
+  }
+
+  .principal-logo {
+    inline-size: 12rem;
+  }
+
+  .principal-navigation span {
+    display: none;
+  }
+
+  .principal-navigation .icon-icon-search,
+  .icon-shopping-cart {
+    font-size: 1.5rem;
+  }
+
+  .container-navigation {
+    display: none !important;
+  }
+
+  .icon-icon-hamburguer-button {
+    display: inline-block;
+    font-size: 2.7rem;
+    color: var(--primary);
+  }  
+}
+
+@media screen and (max-width:425px) {
+  :root {
+    font-size: 10px !important;
+  }
+
+  .principal-logo {
+    inline-size: 24rem;
+  }
+
+  .wrapper-header a {
+    grid-column: 1 / 7;
+  }
+
+  .principal-navigation {
+    grid-column: 11 / 12 !important;
+  }
+
+  .principal-navigation .icon-icon-search,
+  .icon-shopping-cart{
+    font-size: 3.4rem;
+  } 
+  
+  .login {
+    padding: 1.3rem 5rem !important;
+    margin-inline-end: 1.3rem;
+  }
+
+  .login a {
+    inline-size: none;
+    block-size: none;
+    font-size: 1.5rem;
+  }
+
+  .icon-icon-hamburguer-button {
+    font-size: 7rem;
+    margin-right: 1rem;
+  }
 }
