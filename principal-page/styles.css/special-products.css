@@ -1,0 +1,61 @@
+.products-special {
+    inline-size: 100%;
+    block-size: auto;
+    margin-top: 7rem;
+    background-color: rgb(211, 211, 211);
+}
+
+.wrapper-special {
+    inline-size: 83rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4rem;
+    padding-block-end: 10rem;
+}
+
+.products-special div img {
+    inline-size: 28rem;
+    block-size: 16rem;
+    aspect-ratio: 2 / 1;
+    vertical-align: middle;
+    border-radius: 5%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .15s;
+} 
+
+.products-special div img:hover {
+    opacity: .7;
+}
+
+.wrapper-special .odd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-special .pair {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.right-row h3 {
+    font-size: 3rem;
+    color: var(--primary);
+}
+
+.right-row p {
+    font-size: 1.29rem;
+    color: grey;
+}
+
+.wrapper-special h2 {
+    font-size: 3.5rem;
+    color: var(--primary);
+    text-align: center;
+} 
+
+

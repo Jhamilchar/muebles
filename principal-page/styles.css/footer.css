@@ -1,0 +1,62 @@
+.footer {
+    background-color: #222222;
+    block-size: 28.625rem;
+}
+
+.conteiner-footer {
+    inline-size: 81rem;
+    margin: auto;
+    block-size: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.for-container .place,
+.for-container .number,
+.for-container .whatssap,
+.for-container .email {
+    color: honeydew;
+    font-size: 1.2rem;
+}
+
+.for-container p span {
+    transition: .15s;
+    cursor: pointer;
+}
+
+.for-container p span:hover{
+    color: #823b10;
+}
+
+.for-container .primary {
+    color: #823b10;
+    font-size: 1.5rem;
+}
+
+.for-container-unic {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.for-container-unic .primary {
+    color: #823b10;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.for-container-unic .polize {
+    color: honeydew;
+    cursor: pointer;
+}
+.for-container-unic .redes a{
+    color: grey;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.for-container-unic .redes {
+    display: flex;
+    justify-content: space-between;
+}

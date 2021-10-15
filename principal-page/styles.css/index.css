@@ -2,6 +2,11 @@
 @import "./content-middle.css";
 @import "./three.css";
 @import "./container-categories.css";
+@import "./special-products.css";
+@import "./about.css";
+@import "./designer.css";
+@import "./footer.css";
+@import "./black-footer.css";
 
 :root {
   font-size: 16px;
@@ -11,6 +16,7 @@
   --white: #ffffff;
   --gray: #cccccc;
   --smoke: #F2EDE7;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,6 +35,7 @@ body {
 .header .principal-navigation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   grid-column: 12 / -1;
   gap: 2rem;
 }
@@ -59,11 +66,12 @@ body {
 }
 
 .container-navigation li a {
-  color: var(--black);
+  color: grey;
   text-decoration: none;
   font-family: 'Alegreya', serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: .1s;
+  font-weight: bold;
 }
 
 .container-navigation li a:hover {
@@ -95,6 +103,7 @@ body {
   cursor: pointer;
   font-size: .8rem;
   transition: .2s;
+  box-sizing: border-box;
 }
 
 .login:hover {
@@ -114,13 +123,13 @@ body {
 
 @media screen and (max-width:1024px) {
   :root {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width:768px) {
   :root {
-    font-size: 14px !important;
+    font-size: 9px !important;
   }
 
   .wrapper-header a {
@@ -153,7 +162,7 @@ body {
 
 @media screen and (max-width:425px) {
   :root {
-    font-size: 10px !important;
+    font-size: 5px !important;
   }
 
   .principal-logo {
@@ -187,5 +196,11 @@ body {
   .icon-icon-hamburguer-button {
     font-size: 7rem;
     margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  :root {
+    font-size: 4px!important;
   }
 }

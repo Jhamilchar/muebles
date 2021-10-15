@@ -1,0 +1,42 @@
+.designer-content {
+    inline-size: 83rem;
+    margin: auto;
+}
+
+.designer-content .dis {
+    margin: 3rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.content-description img {
+    cursor: pointer;
+    transition: .2s;
+}
+
+.content-description img:hover {
+    box-shadow: 7px 7px 20px 14px rgb(130, 59, 16);
+}
+
+.content-description .name {
+    font-size: 1.7rem;    font-weight: bold;
+
+}
+
+.content-description .description {
+    font-size: 2rem;
+    color: rgb(130, 59, 16);
+    font-weight: bold;
+}
+
+.flex-three {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-three img {
+    inline-size: 15rem;
+    block-size: 18rem;
+}

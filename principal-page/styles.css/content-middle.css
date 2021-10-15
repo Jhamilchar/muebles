@@ -14,7 +14,7 @@
   }
   
   .container-left {
-    grid-column: 2 / 6;
+    grid-column: 1 / 6;
     margin-right: 5rem;
   }
   
@@ -38,7 +38,9 @@
     border: none;
     font-weight: bold;
     transition: .2s;
-    cursor: pointer;
+    cursor: pointer;   
+    box-sizing: border-box;
+    margin: 1rem 0;
   }
   
   .container-left .button:hover {

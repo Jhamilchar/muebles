@@ -1,0 +1,34 @@
+.about {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-image: url("../images/image-about.webp");
+    block-size: 22rem;
+}
+
+.wrapper-about {
+    inline-size: 83rem;
+    block-size: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.wrapper-about h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: var(--primary);
+}
+
+.wrapper-about p {
+    text-align: justify;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.wrapper-about > * {
+    margin: 0;
+}
