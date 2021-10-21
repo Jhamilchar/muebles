@@ -1,0 +1,35 @@
+.content-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    inline-size: 81rem;
+    margin: auto;
+    block-size: 100%;
+    margin-block-start: 5rem;
+    margin-block-end: 8rem;
+}
+
+.content-three > * {
+    padding: 1rem;
+    block-size: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.content-three > * h4 {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.content-three > * img {
+    inline-size: 90%;
+    block-size: 14.5rem;
+    vertical-align: middle;
+}
+
+.content-three > * p {
+    font-size: 1.3rem;
+    text-align: justify;
+    color: rgb(55, 55, 55);
+}

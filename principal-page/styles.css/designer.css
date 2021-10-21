@@ -13,11 +13,11 @@
 
 .content-description img {
     cursor: pointer;
-    transition: .2s;
+    transition: .3s;
 }
 
 .content-description img:hover {
-    box-shadow: 6px 6px 20px 12px rgb(40, 38, 36);
+    transform: scale(1.03);
 }
 
 .content-description .name {

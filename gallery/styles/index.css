@@ -1,5 +1,5 @@
+@import "./content-gallery.css";
 @import "./information.css";
-@import "./three-information.css";
 @import "./footer.css";
 @import "./black-footer.css";
 
@@ -68,7 +68,7 @@
     font-weight: bold;
 }
 
-li .services{
+li .gallery{
     color: var(--primary) !important;
     border-bottom: 0.2rem solid var(--primary);
 }

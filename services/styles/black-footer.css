@@ -1,0 +1,22 @@
+.ultimate-footer {
+    background-color: #1c1c1c;
+}
+
+.black-footer {
+    display: flex;
+    justify-content: space-between;
+    block-size: 3.3rem;
+    align-items: center;
+    box-sizing: border-box;
+    inline-size: 81rem;
+    margin: auto;
+}
+.black-footer p {
+    color: grey;
+    font-size: .9rem;
+}
+
+.black-footer img {
+    block-size: 1.3rem;
+    cursor: pointer;
+}

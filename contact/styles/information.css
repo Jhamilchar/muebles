@@ -1,0 +1,15 @@
+.info-content {
+    inline-size: 81rem;
+    margin: auto;
+    block-size: 100%;
+}
+
+.info-content h2 {
+    color: var(--primary);
+    font-size: 4rem;
+}
+
+.info-content p {
+    font-size: 1.7rem;
+    color: rgb(55, 55, 55);
+}
