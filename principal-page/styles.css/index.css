@@ -175,6 +175,7 @@ body {
 
   .principal-navigation {
     grid-column: 11 / 12 !important;
+    
   }
 
   .principal-navigation .icon-icon-search,

@@ -17,12 +17,12 @@
 }
 
 .content-description img:hover {
-    box-shadow: 7px 7px 20px 14px rgb(130, 59, 16);
+    box-shadow: 6px 6px 20px 12px rgb(40, 38, 36);
 }
 
 .content-description .name {
-    font-size: 1.7rem;    font-weight: bold;
-
+    font-size: 1.7rem;    
+    font-weight: bold;
 }
 
 .content-description .description {
@@ -39,4 +39,5 @@
 .flex-three img {
     inline-size: 15rem;
     block-size: 18rem;
+    border-radius: 50%;
 }

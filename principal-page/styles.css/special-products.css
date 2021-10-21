@@ -2,7 +2,7 @@
     inline-size: 100%;
     block-size: auto;
     margin-top: 7rem;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(58, 54, 54);
 }
 
 .wrapper-special {
@@ -13,6 +13,7 @@
     justify-content: space-around;
     gap: 4rem;
     padding-block-end: 10rem;
+    /* rgba(108,43,2,1) 52% */
 }
 
 .products-special div img {
@@ -27,7 +28,7 @@
 } 
 
 .products-special div img:hover {
-    opacity: .7;
+    opacity: .6;
 }
 
 .wrapper-special .odd {
@@ -44,7 +45,7 @@
 
 .right-row h3 {
     font-size: 3rem;
-    color: var(--primary);
+    color: var(--white);
 }
 
 .right-row p {
@@ -54,8 +55,16 @@
 
 .wrapper-special h2 {
     font-size: 3.5rem;
-    color: var(--primary);
+    color: var(--white);
     text-align: center;
 } 
+
+@media screen and (max-width: 768px) {
+    .wrapper-special .odd,
+    .wrapper-special .pair {
+        justify-content: center;
+        gap: 1.3rem;
+    } 
+}
 
 

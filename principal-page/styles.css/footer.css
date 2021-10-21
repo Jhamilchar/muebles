@@ -20,12 +20,13 @@
     font-size: 1.2rem;
 }
 
-.for-container p span {
+.for-container p a {
     transition: .15s;
-    cursor: pointer;
+    text-decoration: none;
+    color: currentColor;
 }
 
-.for-container p span:hover{
+.for-container p a:hover{
     color: #823b10;
 }
 
@@ -48,8 +49,14 @@
 
 .for-container-unic .polize {
     color: honeydew;
-    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
+
+.for-container-unic .polize:hover{
+    color: #823b10;
+}
+
 .for-container-unic .redes a{
     color: grey;
     text-decoration: none;

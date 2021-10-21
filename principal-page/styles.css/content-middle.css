@@ -15,7 +15,6 @@
   
   .container-left {
     grid-column: 1 / 6;
-    margin-right: 5rem;
   }
   
   .container-left h2 {
@@ -25,8 +24,12 @@
   }
   
   .container-left p {
-    font-size: 1.2rem;
+    font-size: 1.2rem;  
     color: rgb(94, 94, 94);
+  }
+
+  .container-left div {
+    margin-block-start: 3rem;
   }
   
   .container-left .button {
@@ -34,13 +37,12 @@
     color: var(--white);
     border-radius: 2.5rem;
     padding: .5rem 2.2rem;
-    font-size: 1rem;
+    text-decoration: none;
     border: none;
     font-weight: bold;
+    font-size: 1.2rem;
     transition: .2s;
-    cursor: pointer;   
     box-sizing: border-box;
-    margin: 1rem 0;
   }
   
   .container-left .button:hover {
@@ -53,7 +55,7 @@
     display: flex;
     grid-column: 7 / -1;
     justify-content: space-evenly;
-    background: var(--gray);
+    background: rgb(84, 84, 84);
     margin-block-start: 2rem;
     padding: 4rem 1rem;
     border-radius: .5rem;
