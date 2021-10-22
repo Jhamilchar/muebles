@@ -1,0 +1,14 @@
+.content-map {
+    inline-size: 83rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+iframe {
+    margin-block-start: 5rem;
+    margin-block-end: 5rem;
+    grid-column: 2 / 6;
+    inline-size: 100%;
+    block-size: 28rem;
+}

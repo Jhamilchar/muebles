@@ -1,0 +1,70 @@
+.duo-content {
+    inline-size: 83rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+label {
+    inline-size: 100%;
+}
+
+form input, 
+form textarea {
+    border: 2px solid #858c94;
+    border-radius: 8px;
+    padding: .825rem 1rem;
+    margin: .1rem;
+    font: var(--body1);
+    margin-block-start: .5rem;
+    inline-size: 100%;
+    grid-column: 1 / 2;
+}
+
+.row-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.bot-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font: var(--button);
+    padding-inline: 1.5rem;
+    padding-block: .9rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: .6s;
+    inline-size: 107%;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    background: var(--primary);
+    color: var(--white);
+    font-size: 1.05rem;
+}
+
+.networks {
+    display: flex;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    justify-content: space-evenly;
+}
+
+.networks h4 {
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+
+.networks a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
