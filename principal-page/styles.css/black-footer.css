@@ -11,6 +11,7 @@
     inline-size: 81rem;
     margin: auto;
 }
+
 .black-footer p {
     color: grey;
     font-size: .9rem;
@@ -19,4 +20,10 @@
 .black-footer img {
     block-size: 1.3rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .black-footer p {
+        font-size: 1.1rem;
+    }
 }

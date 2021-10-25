@@ -32,3 +32,13 @@
 .wrapper-about > * {
     margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .wrapper-about h2 {
+        font-size: 4rem;
+    }
+
+    .wrapper-about p {
+        font-size: 1.45rem;
+    }
+}

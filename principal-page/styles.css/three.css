@@ -11,3 +11,21 @@
     color: grey;
     font-size: 2.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .three-container h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 425px) {
+    
+}
+
+@media screen and (max-width: 375px) {
+    
+}

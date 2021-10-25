@@ -2,7 +2,7 @@
     inline-size: 100%;
     block-size: auto;
     margin-top: 7rem;
-    background-color: rgb(58, 54, 54);
+    background-color: rgb(60, 58, 58);
 }
 
 .wrapper-special {
@@ -45,19 +45,44 @@
 
 .right-row h3 {
     font-size: 3rem;
-    color: var(--white);
+    color: var(--primary);
 }
 
 .right-row p {
     font-size: 1.29rem;
-    color: grey;
+    color: rgb(189, 189, 189);
 }
 
 .wrapper-special h2 {
     font-size: 3.5rem;
-    color: var(--white);
+    color: var(--primary);
     text-align: center;
 } 
+
+@media screen and (max-width: 1024px) {
+    .wrapper-special h2 {
+        font-size: 4.4rem;
+    }
+
+    .products-special div img {
+        aspect-ratio: 1 / 1;
+        inline-size: 30rem;
+        block-size: 24rem;
+    }
+
+    .right-row h3 {
+        font-size: 3.5rem;
+    }
+
+    .right-row p {
+        font-size: 2rem;
+    }
+
+    .right-row {
+        padding-inline-start: 3rem;
+        padding-inline-end: 3rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .wrapper-special .odd,

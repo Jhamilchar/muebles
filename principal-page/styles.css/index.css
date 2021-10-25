@@ -48,9 +48,9 @@ body {
 }
 
 .principal-logo {
-  inline-size: 10rem;
-  vertical-align: middle;
-  margin-block-start: 1rem;
+  inline-size: 13rem;
+  vertical-align: middle; 
+  margin-block-start: .1rem;
 }
 
 .wrapper-header {
@@ -125,6 +125,18 @@ body {
   :root {
     font-size: 12px;
   }
+
+  .principal-logo {
+    inline-size: 14rem;
+  }
+
+  .container-navigation li a {
+    font-size: 2rem;
+  }
+
+  .login a {
+    font-size: 1.17rem;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -137,7 +149,7 @@ body {
   }
 
   .principal-logo {
-    inline-size: 13rem;
+    inline-size: 15rem;
   }
 
   .principal-navigation {
@@ -163,6 +175,7 @@ body {
     align-items: center;
     background-color: var(--primary);
     margin-block-start: 40rem;
+    display: none !important;
   }
 }
 
@@ -195,9 +208,7 @@ body {
   }
 
   .login a {
-    inline-size: none;
-    block-size: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .icon-icon-hamburguer-button {
