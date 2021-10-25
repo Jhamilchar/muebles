@@ -137,27 +137,33 @@ body {
   }
 
   .principal-logo {
-    inline-size: 12rem;
+    inline-size: 13rem;
+  }
+
+  .principal-navigation {
+    grid-column: 11 / 12 !important;
+    position: relative;
   }
 
   .principal-navigation span {
     display: none;
   }
 
-  .principal-navigation .icon-icon-search,
-  .icon-shopping-cart {
-    font-size: 1.5rem;
-  }
-
-  .container-navigation {
-    display: none !important;
-  }
-
   .icon-icon-hamburguer-button {
     display: inline-block;
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     color: var(--primary);
   }  
+
+  .container-navigation {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    display: grid !important;
+    align-items: center;
+    background-color: var(--primary);
+    margin-block-start: 40rem;
+  }
 }
 
 @media screen and (max-width:425px) {
