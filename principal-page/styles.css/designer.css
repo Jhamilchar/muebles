@@ -34,6 +34,7 @@
 .flex-three {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .flex-three img {
@@ -59,4 +60,44 @@
     .content-description .description {
         font-size: 2.4rem;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .content-description img {
+        inline-size: 25rem;
+    }
+
+    .content-description .name,
+    .content-description .description {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content-description {
+        text-align: center;
+    }
+    
+    .content-description img {
+        inline-size: 36rem;
+        block-size: 39rem;
+    }
+
+    .designer-content .dis {
+        font-size: 7rem;
+    }
+
+    .content-description .name,
+    .content-description .description {
+        text-align: center;
+    }
+
+    .content-description .name {
+        font-size: 4rem;
+    }
+
+    .content-description .description {
+        font-size: 3.7rem;
+    }
+
 }

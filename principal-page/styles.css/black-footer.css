@@ -27,3 +27,20 @@
         font-size: 1.1rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .black-footer {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        block-size: auto;
+    }
+
+    .black-footer p {
+        font-size: 2rem;
+    }
+
+    .black-footer img {
+        block-size: 2.8rem !important;
+    }
+
+}

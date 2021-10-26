@@ -42,3 +42,33 @@
         font-size: 1.45rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about {
+        block-size: 26rem;
+    }
+
+    .wrapper-about h2 {
+        font-size: 6rem;
+    }
+
+    .wrapper-about p {
+        font-size: 1.7rem;
+        padding-block-end: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about {
+        block-size: auto;
+    }
+
+    .wrapper-about h2 {
+        font-size: 10rem;
+    }
+
+    .wrapper-about p {
+        font-size: 2.4rem;
+        padding-block-end: 2rem;
+    }
+}

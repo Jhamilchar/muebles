@@ -1,6 +1,6 @@
 .footer {
     background-color: #222222;
-    block-size: 28.625rem;
+    block-size: auto;
 }
 
 .conteiner-footer {
@@ -10,6 +10,12 @@
     display: flex;
     align-items: center;
     gap: 2.5rem;
+}
+
+.row-line {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .for-container .place,
@@ -78,5 +84,35 @@
     .for-container .whatssap,
     .for-container .email {
         font-size: 1.33rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .conteiner-footer {
+        flex-direction: column-reverse;
+    }
+
+    .for-container .primary,
+    .for-container-unic .primary {
+        font-size: 4.8rem;
+    }
+
+    .row-line {
+        justify-content: space-between;
+    }
+
+    .for-container .place,
+    .for-container .number,
+    .for-container .whatssap,
+    .for-container .email {
+        font-size: 2.5rem;
+    }
+
+    .for-container-unic .redes a {
+        font-size: 3rem;
+    } 
+
+    .for-container-unic .polize {
+        font-size: 2.5rem;
     }
 }

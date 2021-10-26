@@ -23,7 +23,9 @@
 }
 
 @media screen and (max-width: 425px) {
-    
+    .three-container h2 {
+        font-size:4.5rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
