@@ -1,3 +1,7 @@
+.three-information {
+    block-size: 100%;
+}
+
 .content-three {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -32,4 +36,90 @@
     font-size: 1.3rem;
     text-align: justify;
     color: rgb(55, 55, 55);
+}
+
+@media screen and (max-width: 1024px) {
+    .content-three > * h4 {
+        font-size: 1.9rem;
+        color: var(--primary);
+    }
+
+    .content-three > * img {
+        inline-size: 100%;
+        block-size: 16rem;
+        vertical-align: middle;
+    }
+
+    .content-three > * p {
+        font-size: 1.6rem;
+        text-align: justify;
+        color: rgb(55, 55, 55);
+    }
+    
+    .content-three > * {
+        block-size: 41rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .content-three > * h4 {
+        font-size: 2.1rem;
+        color: var(--primary);
+    }
+
+    .content-three > * img {
+        inline-size: 100%;
+        block-size: 17rem;
+        vertical-align: middle;
+    }
+
+    .content-three > * p {
+        font-size: 1.8rem;
+        text-align: justify;
+        color: rgb(55, 55, 55);
+    }
+
+    .content-three > * {
+        block-size: 48rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .content-three {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-three > * h4 {
+        font-size: 3.9rem;
+        color: var(--primary);
+    }
+
+    .content-three > * img {
+        inline-size: 100%;
+        block-size: auto;
+        vertical-align: middle;
+    }
+
+    .content-three > * p {
+        font-size: 3rem;
+        text-align: justify;
+        color: rgb(55, 55, 55);
+    }
+
+    .content-three > * {
+        block-size: 90rem;
+        max-inline-size: 70rem;
+    }
+
+    .content-three {
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-block-end: 10rem;
+        gap: 7rem;
+    }
 }

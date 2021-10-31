@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?wuebln');
+    src:  url('../fonts/icomoon.eot?wuebln#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?wuebln') format('truetype'),
+      url('../fonts/icomoon.woff?wuebln') format('woff'),
+      url('../fonts/icomoon.svg?wuebln#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shopping-cart:before {
+    content: "\e903";
+  }
+  .icon-youtube1:before {
+    content: "\e900";
+  }
+  .icon-twitter1:before {
+    content: "\e902";
+  }
+  .icon-facebook21:before {
+    content: "\e908";
+  }
+  .icon-icon-users:before {
+    content: "\e901";
+  }
+  .icon-icon-search:before {
+    content: "\e904";
+  }
+  .icon-icon-help-circle:before {
+    content: "\e905";
+  }
+  .icon-icon-hamburguer-button:before {
+    content: "\e906";
+  }
+  .icon-icon-gps:before {
+    content: "\e907";
+  }
+  .icon-icon-chevron-down:before {
+    content: "\e90d";
+  }
+  .icon-location2:before {
+    content: "\e948";
+  }
+  .icon-bubble:before {
+    content: "\e96b";
+  }
+  .icon-wink2:before {
+    content: "\e9e8";
+  }
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  .icon-github:before {
+    content: "\eab0";
+  }
+  
