@@ -44,8 +44,9 @@
 }
   
 .principal-logo {
-    inline-size: 10rem;
-    vertical-align: middle;
+  inline-size: 13rem;
+  vertical-align: middle; 
+  margin-block-start: .1rem;
 }
   
 .wrapper-header {

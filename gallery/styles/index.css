@@ -5,46 +5,47 @@
 @import "./black-footer.css";
 
 :root {
-    font-size: 16px;
-    font-family: 'Alegreya', serif;
-    --primary: #8f4e04;
-    --black: #000000;
-    --white: #ffffff;
-    --gray: #cccccc;
-    --smoke: #F2EDE7;
-    box-sizing: border-box;
-  }
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+  --primary: #8f4e04;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #cccccc;
+  --smoke: #F2EDE7;
+  box-sizing: border-box;
+}
   
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
 
 .header {
-    inline-size: 100%;
-    block-size: auto;
+  inline-size: 100%;
+  block-size: auto;
 }
   
 .header .principal-navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    grid-column: 12 / -1;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 12 / -1;
+  gap: 2rem;
 }
   
 .header .principal-navigation .container-navigation {
-    display: flex;
-    gap: 3rem;
-    padding: 0;
-    justify-content: space-evenly;
+  display: flex;
+  gap: 3rem;
+  padding: 0;
+  justify-content: space-evenly;
 }
   
 .principal-logo {
-    inline-size: 10rem;
-    vertical-align: middle;
+  inline-size: 13rem;
+  vertical-align: middle; 
+  margin-block-start: .1rem;
 }
   
 .wrapper-header {
