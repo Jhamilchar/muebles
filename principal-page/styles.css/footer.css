@@ -24,6 +24,8 @@
 .for-container .email {
     color: honeydew;
     font-size: 1.2rem;
+    margin-block-start: 3rem;
+    margin-block-end: 2.5rem;
 }
 
 .for-container p a {
