@@ -10,8 +10,8 @@
 }
 
 .info-content p {
-    font-size: 1.7rem;
-    color: rgb(55, 55, 55);
+    font-size: 1.8rem;
+    color: rgb(93, 82, 82);
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,7 +22,7 @@
     
     .info-content p {
         font-size: 2rem;
-        color: rgb(55, 55, 55);
+        color: rgb(93, 82, 82);
     }
 }
 
@@ -35,7 +35,7 @@
     
     .info-content p {
         font-size: 2rem;
-        color: rgb(55, 55, 55);
+        color: rgb(93, 82, 82);
         text-align: center;
     }
 }
@@ -49,7 +49,7 @@
     
     .info-content p {
         font-size: 4rem;
-        color: rgb(55, 55, 55);
+        color: rgb(93, 82, 82);
         text-align: center;
     }
 }

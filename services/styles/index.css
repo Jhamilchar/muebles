@@ -6,7 +6,7 @@
 
 :root {
     font-size: 16px;
-    font-family: 'Alegreya', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     --primary: #8f4e04;
     --black: #000000;
     --white: #ffffff;
@@ -63,7 +63,7 @@ body {
 .container-navigation li a {
     color: grey;
     text-decoration: none;
-    font-family: 'Alegreya', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     transition: .1s;
     font-weight: bold;

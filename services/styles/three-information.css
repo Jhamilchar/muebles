@@ -9,16 +9,17 @@
     margin: auto;
     block-size: 100%;
     margin-block-start: 5rem;
-    margin-block-end: 8rem;
+    margin-block-end: 6rem;
 }
 
 .content-three > * {
     padding: 1rem;
-    block-size: 32rem;
+    block-size: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .content-three > * h4 {
@@ -27,15 +28,15 @@
 }
 
 .content-three > * img {
-    inline-size: 90%;
-    block-size: 14.5rem;
-    vertical-align: middle;
+    inline-size: 100%;
+    block-size: 15rem;
 }
 
 .content-three > * p {
     font-size: 1.3rem;
     text-align: justify;
-    color: rgb(55, 55, 55);
+    color: rgb(90, 82, 82);
+    line-height: 1.84rem;
 }
 
 @media screen and (max-width: 1024px) {

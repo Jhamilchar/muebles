@@ -23,7 +23,11 @@
 .for-container .whatssap,
 .for-container .email {
     color: honeydew;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+
+.for-container p {
+    margin: 2.3rem 0;
 }
 
 .for-container p a {
@@ -39,8 +43,8 @@
 .for-container .primary {
     color: #823b10;
     font-size: 1.9rem;
+    margin-bottom: 3.5rem;
 }
-
 .for-container-unic {
     display: flex;
     flex-direction: column;
