@@ -13,7 +13,7 @@ body{
 .content {
     display: grid;
     grid-template-columns: repeat(12 , 1fr);
-    align-items: center;
+    place-items: center;
     background-image: url(../images/back1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     gap: 2rem;
     grid-column: 5 / 9;
-    inline-size: 100%;
+    /* inline-size: 100%; */
     block-size: 42rem;
     border-radius: 4%;
     box-shadow: rgba(65, 50, 32, 0.818) 0px 19px 30px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
