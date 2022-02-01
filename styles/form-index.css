@@ -27,9 +27,8 @@ body{
     flex-direction: column;
     gap: 2rem;
     grid-column: 5 / 9;
-    /* inline-size: 100%; */
     block-size: 42rem;
-    border-radius: 4%;
+    border-radius: 8%;
     box-shadow: rgba(65, 50, 32, 0.818) 0px 19px 30px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     align-items: center;
 }
@@ -65,6 +64,7 @@ label {
     font-size: 1.7rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: transparent;
+    margin: 0 4.5rem;
 }
 
 label input[type="email"],

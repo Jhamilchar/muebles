@@ -48,6 +48,7 @@
   }
   .icon-icon-hamburguer-button:before {
     content: "\e906";
+    cursor: pointer;
   }
   .icon-icon-gps:before {
     content: "\e907";

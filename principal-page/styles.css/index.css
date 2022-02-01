@@ -116,10 +116,6 @@ body {
   color: var(--white);
 }
 
-.icon-icon-hamburguer-button {
-  display: none;
-}
-
 @media screen and (max-width:1024px) {
   :root {
     font-size: 12px;
@@ -156,10 +152,6 @@ body {
     position: relative;
   }
 
-  .principal-navigation span {
-    display: none;
-  }
-
   .login a {
     font-size: 1.35rem;
   }
@@ -180,6 +172,21 @@ body {
     margin-block-start: 40rem;
     display: none !important;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .principal-navigation {
+    background-color: blue;
+  }
+
+  .principal-navigation span {
+    display: none;
+  }
+
+  .icon-icon-hamburguer-button {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width:425px) {
